@@ -1,4 +1,4 @@
 # Lab programs
 1) ## Data Structures and Algorithms
 2) ## Unix programming
-3 ## Paradigms of Programming
+3) ## Paradigms of Programming
