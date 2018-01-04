@@ -1,0 +1,1429 @@
+Script started on Friday 18 August 2017 01:17:45 PM IST
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ script/tem[K[K[Ktmp/record.txt
+bash: script/tmp/record.txt: No such file or directory
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ scri[p[K[Kpt/record.txt
+bash: script/record.txt: No such file or directory
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ script record.txt
+Script started, file is record.txt
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ $ls[K[K[Kls
+min.txt   [0m[01;32mprog2.sh[0m  [01;32mprog4.sh[0m  [01;32mprog6.sh[0m  prog8.sh    typescript
+[01;32mprog1.sh[0m  [01;32mprog3.sh[0m  [01;32mprog5.sh[0m  [01;32mprog7.sh[0m  record.txt
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ echo $schell[K[K[K[K[Khell
+
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ who
+student  tty7         2017-08-18 13:06 (:0)
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ exit
+exit
+Script done, file is record.txt
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ scriptrepl[K[K[K[K[K[K[K[K[K[Kscript -t -a
+Script started, file is typescript
+0.044726 92
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ 4.224386 4
+^C
+0.000630 92
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ 2.520017 1
+e0.111779 1
+x0.232057 1
+i0.199958 1
+t0.231801 2
+
+0.000108 6
+exit
+Script done, file is typescript
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ scriptre[p[K[KplAY[K[Kat[Ky record.txt
+scriptreplay: timings file record.txt: 0: unexpected format
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ tty
+/dev/pts/18
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ datse[K[Ke -s
+date: option requires an argument -- 's'
+Try 'date --help' for more information.
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date
+Fri Aug 18 13:25:15 IST 2017
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date t%m
+date: invalid date ‘t%m’
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ datwe[Ke[K[Ke + &[K%m
+date: extra operand ‘%m’
+Try 'date --help' for more information.
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date + %mdatwe[K[K[K[K[K
+date: extra operand ‘%m’
+Try 'date --help' for more information.
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date --help
+Usage: date [OPTION]... [+FORMAT]
+  or:  date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
+Display the current time in the given FORMAT, or set the system date.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -d, --date=STRING          display time described by STRING, not 'now'
+  -f, --file=DATEFILE        like --date; once for each line of DATEFILE
+  -I[FMT], --iso-8601[=FMT]  output date/time in ISO 8601 format.
+                               FMT='date' for date only (the default),
+                               'hours', 'minutes', 'seconds', or 'ns'
+                               for date and time to the indicated precision.
+                               Example: 2006-08-14T02:34:56-0600
+  -R, --rfc-2822             output date and time in RFC 2822 format.
+                               Example: Mon, 14 Aug 2006 02:34:56 -0600
+      --rfc-3339=FMT         output date/time in RFC 3339 format.
+                               FMT='date', 'seconds', or 'ns'
+                               for date and time to the indicated precision.
+                               Example: 2006-08-14 02:34:56-06:00
+  -r, --reference=FILE       display the last modification time of FILE
+  -s, --set=STRING           set time described by STRING
+  -u, --utc, --universal     print or set Coordinated Universal Time (UTC)
+      --help     display this help and exit
+      --version  output version information and exit
+
+FORMAT controls the output.  Interpreted sequences are:
+
+  %%   a literal %
+  %a   locale's abbreviated weekday name (e.g., Sun)
+  %A   locale's full weekday name (e.g., Sunday)
+  %b   locale's abbreviated month name (e.g., Jan)
+  %B   locale's full month name (e.g., January)
+  %c   locale's date and time (e.g., Thu Mar  3 23:05:25 2005)
+  %C   century; like %Y, except omit last two digits (e.g., 20)
+  %d   day of month (e.g., 01)
+  %D   date; same as %m/%d/%y
+  %e   day of month, space padded; same as %_d
+  %F   full date; same as %Y-%m-%d
+  %g   last two digits of year of ISO week number (see %G)
+  %G   year of ISO week number (see %V); normally useful only with %V
+  %h   same as %b
+  %H   hour (00..23)
+  %I   hour (01..12)
+  %j   day of year (001..366)
+  %k   hour, space padded ( 0..23); same as %_H
+  %l   hour, space padded ( 1..12); same as %_I
+  %m   month (01..12)
+  %M   minute (00..59)
+  %n   a newline
+  %N   nanoseconds (000000000..999999999)
+  %p   locale's equivalent of either AM or PM; blank if not known
+  %P   like %p, but lower case
+  %r   locale's 12-hour clock time (e.g., 11:11:04 PM)
+  %R   24-hour hour and minute; same as %H:%M
+  %s   seconds since 1970-01-01 00:00:00 UTC
+  %S   second (00..60)
+  %t   a tab
+  %T   time; same as %H:%M:%S
+  %u   day of week (1..7); 1 is Monday
+  %U   week number of year, with Sunday as first day of week (00..53)
+  %V   ISO week number, with Monday as first day of week (01..53)
+  %w   day of week (0..6); 0 is Sunday
+  %W   week number of year, with Monday as first day of week (00..53)
+  %x   locale's date representation (e.g., 12/31/99)
+  %X   locale's time representation (e.g., 23:13:48)
+  %y   last two digits of year (00..99)
+  %Y   year
+  %z   +hhmm numeric time zone (e.g., -0400)
+  %:z  +hh:mm numeric time zone (e.g., -04:00)
+  %::z  +hh:mm:ss numeric time zone (e.g., -04:00:00)
+  %:::z  numeric time zone with : to necessary precision (e.g., -04, +05:30)
+  %Z   alphabetic time zone abbreviation (e.g., EDT)
+
+By default, date pads numeric fields with zeroes.
+The following optional flags may follow '%':
+
+  -  (hyphen) do not pad the field
+  _  (underscore) pad with spaces
+  0  (zero) pad with zeros
+  ^  use upper case if possible
+  #  use opposite case if possible
+
+After any flags comes an optional field width, as a decimal number;
+then an optional modifier, which is either
+E to use the locale's alternate representations if available, or
+O to use the locale's alternate numeric symbols if available.
+
+Examples:
+Convert seconds since the epoch (1970-01-01 UTC) to a date
+  $ date --date='@2147483647'
+
+Show the time on the west coast of the US (use tzselect(1) to find TZ)
+  $ TZ='America/Los_Angeles' date
+
+Show the local time for 9AM next Friday on the west coast of the US
+  $ date --date='TZ="America/Los_Angeles" 09:00 next Fri'
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/date>
+or available locally via: info '(coreutils) date invocation'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date --help[2P+ %m[1P%m
+08
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +%m[Kh
+Aug
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +%h
+Aug
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ 'date +%h[K[K
+
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ '[Kdate +"%h %m"
+Aug 08
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%I %p"
+01 PM
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%I %p"[1P %p"H %p"
+13 PM
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%H %p"[C[C[C[1P"[1P"[1P"[1P"D"
+08/18/17
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%D"[1P"T"
+13:27:48
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%T"[1P"M"
+27
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%M"[1P"h"[1P"H"
+13
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%H"[K[Ks[KS"
+16
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%S"[C[1P"m"
+08
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%m"[1P"S"
+28
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%S"
+30
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%S"
+32
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%S"
+32
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%S"
+33
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ date +"%S"
+34
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ history
+ 1025  ./s
+ 1026  cc server.c -o s
+ 1027  ./s
+ 1028  cc server.c -o s
+ 1029  ./s
+ 1030  cc server.c -o s
+ 1031  ./s
+ 1032  cc server.c -o s
+ 1033  ./s
+ 1034  cc server.c -o s
+ 1035  ./s
+ 1036  cc server.c -o s
+ 1037  ./s
+ 1038  cc server.c -o s
+ 1039  ./s
+ 1040  cc server.c -o s
+ 1041  ./s
+ 1042  cc server.c -o s
+ 1043  ./s
+ 1044  cc server.c -o s
+ 1045  ./s
+ 1046  cc server.c -o s
+ 1047  ./s
+ 1048  cc server.c -o s
+ 1049  ./s
+ 1050  cc server.c -o s
+ 1051  ./s
+ 1052  cc server.c -o s
+ 1053  ./s
+ 1054  cc server.c -o s
+ 1055  ./s
+ 1056  cc server.c -o s
+ 1057  ./s
+ 1058  cc server.c -o s
+ 1059  ./s
+ 1060  cc server.c -o s
+ 1061  ./s
+ 1062  cc server.c -o s
+ 1063  ./s
+ 1064  cc server.c -o s
+ 1065  ./s
+ 1066  cc semap_ex.c
+ 1067  ./a.out
+ 1068  figlet kaj
+ 1069  sudo apt-get update
+ 1070  sudo apt-get install toilet figlet
+ 1071  figlet kaj
+ 1072  sudo apt install toilet figlet
+ 1073  sudo apt-get install toilet 
+ 1074  toilet kaj
+ 1075  sudo apt install toilet
+ 1076  toilet kaj
+ 1077  figlet
+ 1078  clear
+ 1079  figlet kaj
+ 1080  clear
+ 1081  figlet -f big " kaj "
+ 1082  figlet -f " kaj "
+ 1083  figlet " kaj "
+ 1084  showbigfonts
+ 1085  showfigfonts 
+ 1086  sudo apt install figlet
+ 1087  showfigfonts 
+ 1088  figlet slant " kaj "
+ 1089  figlet  " kaj "
+ 1090  figlet -f slant " kaj "
+ 1091  date '+%D %T' | toilet -f term -F border --gay
+ 1092  date '+%D %T' | toilet -f term -F  --gay
+ 1093  date '+%D %T' | toilet -f term 
+ 1094  date '+%D %T' | toilet -f term -F border --gay
+ 1095  "kaj" | toilet -f term -F border --gay
+ 1096  ls | toilet -f term -F border --gay
+ 1097  cat text.txt | toilet -f term -F border --gay
+ 1098  clear
+ 1099  cc sharedmem.c
+ 1100  ./a.ot
+ 1101  ./a.out
+ 1102  cc sharedmem.c
+ 1103  ./a.out
+ 1104  cc sharedmem.c
+ 1105  ./a.out
+ 1106  cc sharedmem.c
+ 1107  ./a.out
+ 1108  cc sharedmem.c
+ 1109  ./a.out
+ 1110  cc sharedmem.c
+ 1111  ./a.out
+ 1112  cc sharedmem.c
+ 1113  ./a.out
+ 1114  cc sharedmem.c
+ 1115  ./a.out
+ 1116  cc sharedmem.c
+ 1117  ./a.out
+ 1118  cc sharedmem.c
+ 1119  ./a.out
+ 1120  cc sharedmem.c
+ 1121  ./a.out
+ 1122  cc sharedmem.c
+ 1123  ./a.out
+ 1124  cc jobs.c
+ 1125  ./a.out
+ 1126  cc jobs.c
+ 1127  ./a.out
+ 1128  cc jobs.c
+ 1129  ./a.out
+ 1130  cc coins.c
+ 1131  ./a.out
+ 1132  cc coins.c
+ 1133  ./a.out
+ 1134  cc w_interval.c
+ 1135  cc w_intrval.c
+ 1136  ./a.out
+ 1137  cc coins.c
+ 1138  ./a.out
+ 1139  cc editdist.c
+ 1140  ./a.out
+ 1141  cc editdist.c
+ 1142  ./a.out
+ 1143  cc editdist.c
+ 1144  ./a.out
+ 1145  cc editdist.c
+ 1146  ./a.out
+ 1147  cc editdist.c
+ 1148  ./a.out
+ 1149  cc editdist.c
+ 1150  ./a.out
+ 1151  cc editdist.c
+ 1152  ./a.out
+ 1153  cc editdist.c
+ 1154  ./a.out
+ 1155  cc editdist.c
+ 1156  ./a.out
+ 1157  cc editdist.c
+ 1158  ./a.out
+ 1159  cc editdist.c
+ 1160  ./a.out
+ 1161  cc editdist.c
+ 1162  ./a.out
+ 1163  cc editdist.c
+ 1164  ./a.out
+ 1165  cc msq_cli.c -o cli
+ 1166  ./cli
+ 1167  cc msq_serv.c -o serv
+ 1168  cc msq_ser.c -o serv
+ 1169  ./serv
+ 1170  cc msq_chat.c 
+ 1171  ./a.out
+ 1172  cc msq_ser.c -o serv
+ 1173  ./serv
+ 1174  cc dinphi.c
+ 1175  cc semap_ex.c
+ 1176  ./a.out
+ 1177  cc readerwriter.c
+ 1178  cc readerwriter.c -lpthread
+ 1179  ./a.out
+ 1180  cc fib.c
+ 1181  ./a.out
+ 1182  ./a.out 1
+ 1183  ./a.out 3
+ 1184  cc fib.c
+ 1185  ./a.out 3
+ 1186  ./a.out 6
+ 1187  cc bankers.c
+ 1188  cd DOC
+ 1189  cc bankers.c
+ 1190  ./a.out
+ 1191  cc bankers.c
+ 1192  ./a.out
+ 1193  cc bankers.c
+ 1194  ./a.out
+ 1195  cc bankers.c
+ 1196  ./a.out
+ 1197  cc bankers.c
+ 1198  ./a.out
+ 1199  cc bankers.c
+ 1200  cc b1.c
+ 1201  cc B1.c
+ 1202  cc b1.c
+ 1203  ./a.out
+ 1204  cc b1.c
+ 1205  ./a.out
+ 1206  cc b1.c
+ 1207  ./a.out
+ 1208  cc bankers.c
+ 1209  ./a.out
+ 1210  cc bankers.c
+ 1211  ./a.out
+ 1212  cc bankers.c
+ 1213  ./a.out
+ 1214  cc bankers.c
+ 1215  ./a.out
+ 1216  cc bankers.c
+ 1217  ./a.out
+ 1218  cc philosopher.c
+ 1219  cc dinphi.c
+ 1220  cc philosopher.c
+ 1221  cc philosopher.c -lpthread
+ 1222  ./a.out
+ 1223  cc dinphi.c
+ 1224  cc dinphi.c -lpthread
+ 1225  cc dinphi.c
+ 1226  cc editdist.c
+ 1227  ./a.out
+ 1228  cc editdist.c
+ 1229  ./a.out
+ 1230  cc editdist.c
+ 1231  ./a.out
+ 1232  cc editdist.c
+ 1233  ./a.out
+ 1234  cc editdist.c
+ 1235  ./a.out
+ 1236  cc editdist.c
+ 1237  ./a.out
+ 1238  cc editdist.c
+ 1239  ./a.out
+ 1240  cc editdist.c
+ 1241  ./a.out
+ 1242  cc editdist.c
+ 1243  ./a.out
+ 1244  cc editdist.c
+ 1245  ./a.out
+ 1246  cc editdist.c
+ 1247  ./a.out
+ 1248  cc editdist.c
+ 1249  ./a.out
+ 1250  cc editdist.c
+ 1251  ./a.out
+ 1252  cc editdist.c
+ 1253  ./a.out
+ 1254  cc editdist.c
+ 1255  ./a.out
+ 1256  cc editdist.c
+ 1257  ./a.out
+ 1258  cc editdist.c
+ 1259  ./a.out
+ 1260  cc editdist.c
+ 1261  ./a.out
+ 1262  cc editdist.c
+ 1263  ./a.out
+ 1264  cc editdist.c
+ 1265  ./a.out
+ 1266  cc editdist.c
+ 1267  ./a.out
+ 1268  cc editdist.c
+ 1269  ./a.out
+ 1270  cc editdist.c
+ 1271  ./a.out
+ 1272  cc editdist.c
+ 1273  ./a.out
+ 1274  cc editdist.c
+ 1275  ./a.out
+ 1276  cc editdist.c
+ 1277  ./a.out
+ 1278  cc editdist.c
+ 1279  ./a.out
+ 1280  cc editdist.c
+ 1281  ./a.out
+ 1282  cc editdist_itr.c
+ 1283  ./a.out
+ 1284  cc editdist_itr.c
+ 1285  ./a.out
+ 1286  cc editdist_itr.c
+ 1287  ./a.out
+ 1288  cc editdist_itr.c
+ 1289  ./a.out
+ 1290  cc editdist_itr.c
+ 1291  ./a.out
+ 1292  cc editdist_itr.c
+ 1293  ./a.out
+ 1294  cc editdist_itr.c
+ 1295  ./a.out
+ 1296  cc editdist_itr.c
+ 1297  ./a.out
+ 1298  cc editdist_itr.c
+ 1299  ./a.out
+ 1300  cc editdist_itr.c
+ 1301  ./a.out
+ 1302  cc editdist_itr.c
+ 1303  ./a.out
+ 1304  cc editdist_itr.c
+ 1305  ./a.out
+ 1306  cc editdist_itr.c
+ 1307  ./a.out
+ 1308  cc editdist_itr.c
+ 1309  ./a.out
+ 1310  cc editdist_itr.c
+ 1311  ./a.out
+ 1312  cc editdist_itr.c
+ 1313  ./a.out
+ 1314  cc editdist_itr.c
+ 1315  ./a.out
+ 1316  cc editdist.c
+ 1317  ./a.out
+ 1318  cc LIS.c
+ 1319  man malloc
+ 1320  cc LIS.c
+ 1321  ./a.out
+ 1322  cc LIS.c
+ 1323  ./a.out
+ 1324  cc LIS.c
+ 1325  ./a.out
+ 1326  cc LIS.c
+ 1327  ./a.out
+ 1328  cc LIS.c
+ 1329  ./a.out
+ 1330  cc LIS.c
+ 1331  ./a.out
+ 1332  cc LIS.c
+ 1333  ./a.out
+ 1334  cc LIS.c
+ 1335  ./a.out
+ 1336  cc LIS.c
+ 1337  ./a.out
+ 1338  cc LIS.c
+ 1339  ./a.out
+ 1340  cc LIS.c
+ 1341  ./a.out
+ 1342  cc LIS.c
+ 1343  ./a.out
+ 1344  cc LIS.c
+ 1345  ./a.out
+ 1346  cc LIS.c
+ 1347  ./a.out
+ 1348  cc LIS.c
+ 1349  ./a.out
+ 1350  cc LIS.c
+ 1351  ./a.out
+ 1352  cc editdist_itr.c
+ 1353  ./a.out
+ 1354  cc editdist_itr.c
+ 1355  ./a.out
+ 1356  cc editdist_itr.c
+ 1357  ./a.out
+ 1358  cc editdist_itr.c
+ 1359  ./a.out
+ 1360  sublime
+ 1361  sublime text.c
+ 1362  hadoop
+ 1363  cc ed.c
+ 1364  ./a.out
+ 1365  cc editdist_itr.c
+ 1366  ./a.out
+ 1367  cc editdist_itr.c
+ 1368  ./a.out
+ 1369  cc editdist_itr.c
+ 1370  ./a.out
+ 1371  cc ed.c
+ 1372  ./a.out
+ 1373  cc dijkstra.c
+ 1374  ./a.out
+ 1375  cc bellman_ford.c
+ 1376  ./a.out
+ 1377  cc bellman_ford.c
+ 1378  ./a.out
+ 1379  cc bellman_ford.c
+ 1380  ./a.out
+ 1381  cc bellman_ford.c
+ 1382  ./a.out
+ 1383  cc bellman_ford.c
+ 1384  ./a.out
+ 1385  cc bellman_ford.c
+ 1386  ./a.out
+ 1387  cc bellman_ford.c
+ 1388  ./a.out
+ 1389  cc bellman_ford.c
+ 1390  ./a.out
+ 1391  cc bellman_ford.c
+ 1392  ./a.out
+ 1393  cc bellman_ford.c
+ 1394  ./a.out
+ 1395  cc bellman_ford.c
+ 1396  ./a.out
+ 1397  cc bellman_ford.c
+ 1398  ./a.out
+ 1399  cc bellman_ford.c
+ 1400  ./a.out
+ 1401  cc bellman_ford.c
+ 1402  ./a.out
+ 1403  cc min_cut.c
+ 1404  ./a.out
+ 1405  cc min_cut.c
+ 1406  ./a.out
+ 1407  cc min_cut.c
+ 1408  ./a.out
+ 1409  cc min_cut.c
+ 1410  ./a.out
+ 1411  cc min_cut.c
+ 1412  ./a.out
+ 1413  cc min_cut.c
+ 1414  ./a.out
+ 1415  cc min_cut.c
+ 1416  ./a.out
+ 1417  cc min_cut.c
+ 1418  ./a.out
+ 1419  cc min_cut.c
+ 1420  ./a.out
+ 1421  cc min_cut.c
+ 1422  ./a.out
+ 1423  cc min_cut.c
+ 1424  ./a.out
+ 1425  cc min_cut.c
+ 1426  ./a.out
+ 1427  cc min_cut.c
+ 1428  ./a.out
+ 1429  cc min_cut.c
+ 1430  ./a.out
+ 1431  cc min_cut.c
+ 1432  ./a.out
+ 1433  cc min_cut.c
+ 1434  ./a.out
+ 1435  cc min_cut.c
+ 1436  ./a.out
+ 1437  cc min_cut.c
+ 1438  ./a.out
+ 1439  cc min_cut.c
+ 1440  ./a.out
+ 1441  cc min_cut.c
+ 1442  ./a.out
+ 1443  cc min_cut.c
+ 1444  ./a.out
+ 1445  cc min_cut.c
+ 1446  ./a.out
+ 1447  cc min_cut.c
+ 1448  ./a.out
+ 1449  cc min_cut.c
+ 1450  ./a.out
+ 1451  cc min_cut.c
+ 1452  ./a.out
+ 1453  cc min_cut.c
+ 1454  ./a.out
+ 1455  cc min_cut.c
+ 1456  ./a.out
+ 1457  cc min_cut.c
+ 1458  ./a.out
+ 1459  cc min_cut.c
+ 1460  ./a.out
+ 1461  cc min_cut.c
+ 1462  ./a.out
+ 1463  cc min_cut.c
+ 1464  ./a.out
+ 1465  cc min_cut.c
+ 1466  ./a.out
+ 1467  cc min_cut.c
+ 1468  ./a.out
+ 1469  cc min_cut.c
+ 1470  ./a.out
+ 1471  gedit phil.c
+ 1472  ls
+ 1473  cd 15it208
+ 1474  cd 15it108
+ 1475  ls
+ 1476  pico xam.c
+ 1477  gcc xam.c
+ 1478  ./a.out
+ 1479  pico xam.c
+ 1480  gcc xam.c
+ 1481  pico xam.c
+ 1482  gcc xam.c
+ 1483  ./a.out
+ 1484  pico xam.c
+ 1485  gcc xam.c
+ 1486  ./a.out
+ 1487  pico xam.c
+ 1488  gcc xam.c
+ 1489  ./a.out
+ 1490  pico xam.c
+ 1491  gcc xam.c
+ 1492  ./a.out
+ 1493  pico xam.c
+ 1494  pico xama.c
+ 1495  pico xam.c
+ 1496  gedit xam.c
+ 1497  pico xama.c
+ 1498  gedit xam.c
+ 1499  pico xama.c
+ 1500  pico xam.c
+ 1501  gcc xam.c
+ 1502  ./a.out
+ 1503  pico xam.c
+ 1504  gcc xam.c
+ 1505  ./a.out
+ 1506  gcc xam.c
+ 1507  ./a.out
+ 1508  gcc xam.c
+ 1509  pico xam.c
+ 1510  pico xam1.c
+ 1511  pico xam.c
+ 1512  gedit xam.c
+ 1513  pico xam1.c
+ 1514  pico xam.c
+ 1515  pico xam1.c
+ 1516  pico xam.c
+ 1517  gcc xam.c
+ 1518  ./a.out
+ 1519  gcc xam.c
+ 1520  ./a.out
+ 1521  gcc xam.c
+ 1522  ./a.out
+ 1523  pico xam.c
+ 1524  pico xam1.c
+ 1525  gcc xam1.c
+ 1526  pico xam.c
+ 1527  pico xam1.c
+ 1528  pico xam.c
+ 1529  gcc xam.c
+ 1530  ./a.out
+ 1531  pico xam1.c
+ 1532  python
+ 1533  mkdir it204
+ 1534  cd it204
+ 1535  mkdir lab0
+ 1536  cd lab0
+ 1537  touch prob1.py
+ 1538  vi touch prob1.py
+ 1539  cd..
+ 1540  cd
+ 1541  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+ 1542  cd it204
+ 1543  cd lab0
+ 1544  touch prob1.py
+ 1545  subl
+ 1546  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+ 1547  sudo apt-get update
+ 1548  sudo apt-get install sublime-text-installer
+ 1549  cd it204
+ 1550  cd lab0
+ 1551  touch prob1.py
+ 1552  subl prob1.py
+ 1553  python prob1.py
+ 1554  python
+ 1555  cc prog3.c
+ 1556  cd Desktop
+ 1557  cc prog3.c
+ 1558  ./a.out
+ 1559  cd hi
+ 1560  ./a.out
+ 1561  ./a.out prog3
+ 1562  vi
+ 1563  ./a.out 
+ 1564  cd Desktop
+ 1565  cd hi
+ 1566  cc prog3.c
+ 1567  ./a.out 
+ 1568  cc prog4.c
+ 1569  ./a.out 
+ 1570  cc prog4.c
+ 1571  ./a.out 
+ 1572  cc prog4.c
+ 1573  ./a.out 
+ 1574  cc prog4.c
+ 1575  ./a.out 
+ 1576  cc prog4.c
+ 1577  ./a.out 
+ 1578  cc prog4.c
+ 1579  ./a.out 
+ 1580  cc prog4.c
+ 1581  ./a.out 
+ 1582  cc prog4.c
+ 1583  ./a.out 
+ 1584  cd Desktop
+ 1585  ls
+ 1586  cd ..
+ 1587  cd Documents
+ 1588  ls
+ 1589  cd ..
+ 1590  ls
+ 1591  cd Unix -107
+ 1592  cd Unix-107
+ 1593  cd  Unix -107  
+ 1594  cd unix107
+ 1595  cat echo $2
+ 1596  echo $2
+ 1597  echo $"hello
+ 1598  cat prog1
+ 1599  ./prog1.sh
+ 1600  prog1
+ 1601  ./prog1
+ 1602  ./prog1.sh
+ 1603  chmod u+x prog1.sh
+ 1604  ./prog1.sh
+ 1605  ./prog1
+ 1606  chmod u+x prog1
+ 1607  ./prog1
+ 1608  ./prog1.sh 3
+ 1609  chmod u+x prog1.sh
+ 1610  ./prog1.sh 3
+ 1611  chmod u+x prog1.sh
+ 1612  ./prog1.sh 3
+ 1613  chmod u+x prog1.sh
+ 1614  ./prog1.sh 3
+ 1615  chmod u+x prog1.sh
+ 1616  ./prog1.sh min.txt
+ 1617  chmod u+x prog1.sh
+ 1618  ./prog1.sh 4
+ 1619  ./prog1.sh 1
+ 1620  chmod u+x prog1.sh
+ 1621  ./prog1.sh 
+ 1622  chmod u+x prog1.sh
+ 1623  ./prog1.sh 
+ 1624  chmod u+x prog1.sh
+ 1625  ./prog1.sh 
+ 1626  ./prog1.sh 5
+ 1627  ./prog1.sh 
+ 1628  chmod u+x prog1.sh
+ 1629  ./prog1.sh 
+ 1630  chmod u+x prog1.sh
+ 1631  ./prog1.sh 
+ 1632  chmod u+x prog1.sh
+ 1633  ./prog1.sh 
+ 1634  chmod u+x prog1.sh
+ 1635  ./prog1.sh 
+ 1636  chmod u+x prog1.sh
+ 1637  ./prog1.sh 
+ 1638  chmod u+x prog1.sh
+ 1639  ./prog1.sh 
+ 1640  chmod u+x prog1.sh
+ 1641  ./prog1.sh 
+ 1642  chmod u+x prog1.sh
+ 1643  ./prog1.sh 
+ 1644  chmod u+x prog1.sh
+ 1645  ./prog1.sh 
+ 1646  chmod u+x prog1.sh
+ 1647  ./prog1.sh 
+ 1648  chmod u+x prog1.sh
+ 1649  ./prog1.sh 
+ 1650  ./prog1.sh min.txt
+ 1651  chmod u+x prog1.sh
+ 1652  ./prog1.sh 
+ 1653  chmod u+x prog1.sh
+ 1654  ./prog1.sh 
+ 1655  chmod u+x prog2.sh
+ 1656  ./prog2.sh
+ 1657  chmod u+x prog3.sh
+ 1658  ./prog3.sh
+ 1659  chmod u+x prog3.sh
+ 1660  ./prog3.sh
+ 1661  chmod u+x prog4.sh
+ 1662  ./prog4.sh
+ 1663  chmod u+x prog6.sh
+ 1664  ./prog6.sh
+ 1665  chmod u+x prog4.sh
+ 1666  ./prog4.sh
+ 1667  chmod u+x prog3.sh
+ 1668  ./prog3.sh
+ 1669  chmod u+x prog2.sh
+ 1670  ./prog2.sh
+ 1671  chmod u+x prog2.sh
+ 1672  ./prog2.sh
+ 1673  chmod u+x prog3.sh
+ 1674  ./prog3.sh
+ 1675  chmod u+x prog6.sh
+ 1676  ./prog6.sh
+ 1677  chmod u+x prog5.sh
+ 1678  ./prog5.sh
+ 1679  chmod u+x prog5.sh
+ 1680  ./prog5.sh
+ 1681  chmod u+x prog5.sh
+ 1682  ./prog5.sh
+ 1683  ./prog1.sh
+ 1684  lex vc.L
+ 1685  lex VC.l
+ 1686  gcc lex.yy.c -ll
+ 1687  ./a.out
+ 1688  lex VC.l
+ 1689  gcc lex.yy.c -ll
+ 1690  ./a.out
+ 1691  lex verb.l
+ 1692  gcc lex.yy.c -ll
+ 1693  ./a.out
+ 1694  lex VC.l
+ 1695  gcc lex.yy.c -ll
+ 1696  ./a.out
+ 1697  lex verb.l
+ 1698  gcc lex.yy.c -ll
+ 1699  ./a.out
+ 1700  lex VC.l
+ 1701  gcc lex.yy.c -ll
+ 1702  lex VC.l
+ 1703  gcc lex.yy.c -ll
+ 1704  ./a.out
+ 1705  gcc lex.yy.c -ll
+ 1706  ./a.out
+ 1707  gcc lex.yy.c -ll
+ 1708  ./a.out
+ 1709  lex VC.l
+ 1710  gcc lex.yy.c -ll
+ 1711  lex VC.l
+ 1712  gcc lex.yy.c -ll
+ 1713  ./a.out
+ 1714  lex pn_num.l
+ 1715  gcc lex.yy.c -ll
+ 1716  ./a.out
+ 1717  lex VC.l
+ 1718  gcc lex.yy.c -ll
+ 1719  ./a.out
+ 1720  lex pn_num.l
+ 1721  gcc lex.yy.c -ll
+ 1722  ./a.out
+ 1723  lex VC.l
+ 1724  gcc lex.yy.c -ll
+ 1725  ./a.out
+ 1726  lex VC.l
+ 1727  gcc lex.yy.c -ll
+ 1728  ./a.out
+ 1729  lex pn_num.l
+ 1730  gcc lex.yy.c -ll
+ 1731  ./a.out
+ 1732  lex count.l
+ 1733  gcc lex.yy.c -ll
+ 1734  ./a.out
+ 1735  lex evenOdd.l
+ 1736  gcc lex.yy.c -ll
+ 1737  lex evenOdd.l
+ 1738  gcc lex.yy.c -ll
+ 1739  ./a.out
+ 1740  sudo ap-get install bison
+ 1741  sudo apt-get install bison
+ 1742  sudo apt-get install flex
+ 1743  sudo apt-get install byacc
+ 1744  cd it204
+ 1745  cd lab1
+ 1746  python3 prob1.py
+ 1747  python3 prob2.py
+ 1748  python3 prob3.py
+ 1749  python3 prob4.py
+ 1750  python3 prob5.py
+ 1751  python3 prob4.py
+ 1752  python3 prob6.py
+ 1753  vi p1.c
+ 1754  cc p1.c
+ 1755  ./a.out
+ 1756  vi p1.c
+ 1757  cc p1.c
+ 1758  ./a.out
+ 1759  vi p1.c
+ 1760  cc p1.c
+ 1761  ./a.out
+ 1762  vi p1.c
+ 1763  cc p1.c
+ 1764  ./a.out
+ 1765  vi p1.c
+ 1766  cc p1.c
+ 1767  ./a.out
+ 1768  vi p1.c
+ 1769  cc p1.c
+ 1770  ./a.out
+ 1771  vi p1.c
+ 1772  cc p1.c
+ 1773  ./a.out
+ 1774  vi p1.c
+ 1775  cc p1.c
+ 1776  vi p1.c
+ 1777  cc p1.c
+ 1778  ./a.out
+ 1779  vi p1.c
+ 1780  cc p1.c
+ 1781  vi p1.c
+ 1782  cc p1.c
+ 1783  vi p1.c
+ 1784  cc p1.c
+ 1785  ./a.out
+ 1786  vi p1.c
+ 1787  cc p1.c
+ 1788  ./a.out
+ 1789  vi p1.c
+ 1790  cc p1.c
+ 1791  ./a.out
+ 1792  vi p1.c
+ 1793  cc p1.c
+ 1794  ./a.out
+ 1795  vi p1.c
+ 1796  cc p1.c
+ 1797  ./a.out
+ 1798  vi p1.c
+ 1799  cc p1.c
+ 1800  ./a.out
+ 1801  vi p1.c
+ 1802  cc p1.c
+ 1803  ./a.out
+ 1804  vi p1.c
+ 1805  cc p1.c
+ 1806  ./a.out
+ 1807  vi p1.c
+ 1808  cc p1.c
+ 1809  ./a.out
+ 1810  vi p1.c
+ 1811  vi p8.c
+ 1812  cc p8.c
+ 1813  vi p8.c
+ 1814  cc p8.c
+ 1815  vi p8.c
+ 1816  cc p8.c
+ 1817  ./a.out
+ 1818  vi p8.c
+ 1819  cc p8.c
+ 1820  vi p8.c
+ 1821  cc p8.c
+ 1822  ./a.out
+ 1823  vi p8.c
+ 1824  cc p8.c
+ 1825  ./a.out
+ 1826  vi p1.c
+ 1827  cc p8.c
+ 1828  cc p1.c
+ 1829  ./a.out
+ 1830  vi p1.c
+ 1831  cc p1.c
+ 1832  ./a.out
+ 1833  vi p1.c
+ 1834  cc p1.c
+ 1835  ./a.out
+ 1836  vi p1.c
+ 1837  cc p1.c
+ 1838  ./a.out
+ 1839  vi p1.c
+ 1840  ./a.out
+ 1841  vi p1.c
+ 1842  cc p1.c
+ 1843  ./a.out
+ 1844  vi p1.c
+ 1845  cc p1.c
+ 1846  ./a.out
+ 1847  vi p1.c
+ 1848  cc p1.c
+ 1849  ./a.out
+ 1850  vi p1.c
+ 1851  vi p1.2.c
+ 1852  cc p1.2.c
+ 1853  ./a.out
+ 1854  vi p1.2.c
+ 1855  cc p1.2.c
+ 1856  vi p1.2.c
+ 1857  cc p1.2.c
+ 1858  ./a.out
+ 1859  vi p1.2.c
+ 1860  cd java107
+ 1861  cd lab1
+ 1862  vi prob6.c
+ 1863  cd java107
+ 1864  cd lab1
+ 1865  cc prob6.c
+ 1866  ./a.out
+ 1867  cc prob6.c
+ 1868  ./a.out
+ 1869  cc prob3.c
+ 1870  ./a.out
+ 1871  cc prob3.c
+ 1872  ./a.out
+ 1873  cc prob3.c
+ 1874  ./a.out
+ 1875  cc prob3.c
+ 1876  cc prob5.c
+ 1877  ./a.out
+ 1878  cc prob5.c
+ 1879  ./a.out
+ 1880  cc prob5.c
+ 1881  ./a.out
+ 1882  cc prob1.c
+ 1883  ./a.out
+ 1884  cc prob1.c
+ 1885  ./a.out
+ 1886  cc prob1.c
+ 1887  ./a.out
+ 1888  cc prob1.c
+ 1889  ./a.out
+ 1890  cc prob1.c
+ 1891  ./a.out
+ 1892  cc prob1.c
+ 1893  ./a.out
+ 1894  cc prob2.c
+ 1895  ./a.out
+ 1896  cc prob3.c
+ 1897  ./a.out
+ 1898  cc prob4.c
+ 1899  ./a.out
+ 1900  cc prob5.c
+ 1901  ./a.out
+ 1902  cc prob5.c
+ 1903  ./a.out
+ 1904  cc prob7.c
+ 1905  ./a.out
+ 1906  cc prob7.c
+ 1907  ./a.out
+ 1908  cc prob7.c
+ 1909  ./a.out
+ 1910  a
+ 1911  ./a.out
+ 1912  cc prob7.c
+ 1913  ./a.out
+ 1914  cc prob7.c
+ 1915  ./a.out
+ 1916  cc prob9.c
+ 1917  ./a.out
+ 1918  cc prob7.c
+ 1919  ./a.out
+ 1920  cc prob9.c
+ 1921  ./a.out
+ 1922  cc prob10.c
+ 1923  ./a.out
+ 1924  cc prob10.c
+ 1925  ./a.out
+ 1926  cc prob5.h
+ 1927  cc prob5.c
+ 1928  ./a.out
+ 1929  cc prob5.c
+ 1930  ./a.out
+ 1931  cc prob5.c
+ 1932  ./a.out
+ 1933  cc prob5.c
+ 1934  ./a.out
+ 1935  cc prob5.c
+ 1936  ./a.out
+ 1937  cc prob5.c
+ 1938  ./a.out
+ 1939  cc prob9.c
+ 1940  ./a.out
+ 1941  cc prob9.c
+ 1942  ./a.out
+ 1943  cc prob9.c
+ 1944  cc prob5.c
+ 1945  ./a.out
+ 1946  cc prob5.c
+ 1947  ./a.out
+ 1948  cc prob5.c
+ 1949  ./a.out
+ 1950  cc prob5.c
+ 1951  ./a.out
+ 1952  cc prob5.c
+ 1953  ./a.out
+ 1954  cc prob10.c
+ 1955  ./a.out
+ 1956  cc prob9.ch
+ 1957  cc prob9.c
+ 1958  ./a.out
+ 1959  cc prob9.c
+ 1960  ./a.out
+ 1961  cc prob9.c
+ 1962  ./a.out
+ 1963  cc prob9.c
+ 1964  cc prob5.c
+ 1965  ./a.out
+ 1966  cc prob6.c
+ 1967  ./a.out
+ 1968  subl.calculator.java
+ 1969  sublcalculator.java
+ 1970  subl calculator.java
+ 1971  clear
+ 1972  subl calculator.java
+ 1973  calculator.java
+ 1974  vi calculator.java
+ 1975  javac calculator java
+ 1976  javac calculator.java
+ 1977  vi calculator.java
+ 1978  vi calculator2.java
+ 1979  javac calculator2.java
+ 1980  clear
+ 1981  vi calculator2.java
+ 1982  javac calculator2.java
+ 1983  vi calculator2.java
+ 1984  javac calculator2.java
+ 1985  javac calculator2java
+ 1986  vi javaprogram
+ 1987  javac javaprogram
+ 1988  vi javaprogram.java
+ 1989  javac javaprogram.java
+ 1990  vi javaprogram.java
+ 1991  javac javaprogram.java
+ 1992  java javaprogram.java
+ 1993  java javaprogramjava
+ 1994  java javaprogram java
+ 1995  vi javaprogram3.java
+ 1996  java javaprogram3 java
+ 1997  vi javaprogram3.java
+ 1998  java javaprogram3 java
+ 1999  exit
+ 2000  script/tmp/record.txt
+ 2001  script/record.txt
+ 2002  script record.txt
+ 2003  script -t -a
+ 2004  scriptreplay record.txt
+ 2005  tty
+ 2006  date -s
+ 2007  date
+ 2008  date t%m
+ 2009  date + %m
+ 2010  date --help
+ 2011  date +%m
+ 2012  date +%h
+ 2013  date +
+ 2014  date +"%h %m"
+ 2015  date +"%I %p"
+ 2016  date +"%H %p"
+ 2017  date +"%D"
+ 2018  date +"%T"
+ 2019  date +"%M"
+ 2020  date +"%H"
+ 2021  date +"%S"
+ 2022  date +"%m"
+ 2023  date +"%S"
+ 2024  history
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ cAL[K[Kal
+    August 2017       
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 [7m18[27m 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ cal 1998
+                            1998
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7   1  2  3  4  5  6  7  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   8  9 10 11 12 13 14  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  15 16 17 18 19 20 21  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  22 23 24 25 26 27 28  
+25 26 27 28 29 30 31                        29 30 31              
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                  1  2      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+26 27 28 29 30        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1         1  2  3  4  5  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+26 27 28 29 30 31     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7         1  2  3  4  5  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  20 21 22 23 24 25 26  
+25 26 27 28 29 30 31  29 30                 27 28 29 30 31        
+                                                                  
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ cal 1998[K[K[K[K13 1998
+cal: 13 is neither a month number (1..12) nor a name
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ cal 13 1998[K[K[K[K[K[K2
+                             12
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6         1  2  3  4  5  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   6  7  8  9 10 11 12  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  13 14 15 16 17 18 19  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  20 21 22 23 24 25 26  
+24 25 26 27 28 29 30  28 29                 27 28 29 30 31        
+31                                                                
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2   1  2  3  4  5  6  7            1  2  3  4  
+ 3  4  5  6  7  8  9   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  29 30 31              26 27 28 29 30        
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6               1  2  3  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+24 25 26 27 28 29 30  28 29 30 31           25 26 27 28 29 30     
+31                                                                
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5               1  2  3  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  27 28 29 30           25 26 27 28 29 30 31  
+30 31                                                             
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ca [Kl 17
+                             17
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6      1  2  3  4  5  6  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   7  8  9 10 11 12 13  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  14 15 16 17 18 19 20  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  21 22 23 24 25 26 27  
+24 25 26 27 28 29 30  28                    28 29 30 31           
+31                                                                
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3                     1         1  2  3  4  5  
+ 4  5  6  7  8  9 10   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+25 26 27 28 29 30     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7            1  2  3  4  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+25 26 27 28 29 30 31  29 30 31              26 27 28 29 30        
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6            1  2  3  4  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  28 29 30              26 27 28 29 30 31     
+31                                                                
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ cal 2[K2 2017
+   February 2017      
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28              
+                      
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ scriptreplay record.txt
+scriptreplay: timings file record.txt: 0: unexpected format
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ scriptreplay record.txt[13Pcal 2 2017[4P1723 1998[3P998[Khistorydate +"%S"m"S"H"M"T"D"H %p"I[C[C[C[Ch %m"[K%hm--help[2P+ %m[1Pt%m[K -s[4Pttyscriptreplay record.txt[11P -t -arecord.txt/record.txttmp/record.txtexit[Kjava javaprogram3 java[2Pvi javaprogram3.javajava javaprogram3 java[2Pvi javaprogram3.javajava javaprogram3 java[2Pvi javaprogram3.javajava javaprogram3 javaexit[Kscript/tmp/record.txt[4Precord.txt record.txt[5P-t -areplay record.txttty[Kdate -s[K t%m+ %m--help[3P+%mh[K"%h %m"I %p"H[C[C[C[C[3PD"T"M"H"S"[K[K[K[K[K[K[K[K[K[Kh[Kchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.sh
+./prog8.sh: line 3: syntax error near unexpected token `do'
+./prog8.sh: line 3: `do '
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+./prog8.sh: line 8: syntax error near unexpected token `)'
+./prog8.sh: line 8: `			quit) echo bye'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+./prog8.sh: line 8: syntax error near unexpected token `)'
+./prog8.sh: line 8: `			quit) echo bye'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.sh
+./prog8.sh: line 8: syntax error near unexpected token `)'
+./prog8.sh: line 8: `		quit)echo bye'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+./prog8.sh: line 8: syntax error near unexpected token `)'
+./prog8.sh: line 8: `		quit)echo bye'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+./prog8.sh: line 9: syntax error near unexpected token `)'
+./prog8.sh: line 9: `				*) echo Pleas try ;;'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+1) month
+2) year
+3) quit
+#? quit    ye  month
+Pleas try
+#? 1
+    August 2017       
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 [7m18[27m 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+#? 2
+Pleas try
+#? 3
+bye
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+./prog8.sh: line 8: syntax error near unexpected token `)'
+./prog8.sh: line 8: `		quit) echo bye'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ '[K./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+./prog8.sh: line 8: syntax error near unexpected token `)'
+./prog8.sh: line 8: `		quit) echo bye'
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ ./prog8.shchmod u+x prog8.sh
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ chmod u+x prog8.sh[8P./prog8.sh
+1) month
+2) year
+3) quit
+#? 2
+                             17
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6      1  2  3  4  5  6  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   7  8  9 10 11 12 13  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  14 15 16 17 18 19 20  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  21 22 23 24 25 26 27  
+24 25 26 27 28 29 30  28                    28 29 30 31           
+31                                                                
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3                     1         1  2  3  4  5  
+ 4  5  6  7  8  9 10   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+25 26 27 28 29 30     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7            1  2  3  4  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+25 26 27 28 29 30 31  29 30 31              26 27 28 29 30        
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6            1  2  3  4  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  28 29 30              26 27 28 29 30 31     
+31                                                                
+#? 1
+    August 2017       
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 [7m18[27m 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+#? 20176 
+Pleas try
+#? 3
+bye
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history

@@ -1,0 +1,12 @@
+Script started on Friday 18 August 2017 01:21:15 PM IST
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ $ls[K[K[Kls
+min.txt   [0m[01;32mprog2.sh[0m  [01;32mprog4.sh[0m  [01;32mprog6.sh[0m  prog8.sh    typescript
+[01;32mprog1.sh[0m  [01;32mprog3.sh[0m  [01;32mprog5.sh[0m  [01;32mprog7.sh[0m  record.txt
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ echo $schell[K[K[K[K[Khell
+
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ who
+student  tty7         2017-08-18 13:06 (:0)
+]0;student@itadmin-ug1: ~/unix107[01;32mstudent@itadmin-ug1[00m:[01;34m~/unix107[00m$ exit
+exit
+
+Script done on Friday 18 August 2017 01:21:50 PM IST
